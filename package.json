@@ -1,0 +1,27 @@
+{
+    "name": "fullstackapp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "@sequelize/postgres": "^7.0.0-alpha.45",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2",
+        "pg": "^8.13.3",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.37.6"
+    },
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "no3utufff",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
